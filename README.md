@@ -1,3 +1,4 @@
+[![Ruby](https://github.com/circleco/sidekiq_job_controller/actions/workflows/main.yml/badge.svg)](https://github.com/circleco/sidekiq_job_controller/actions/workflows/main.yml)
 # SidekiqJobController
 
 I bet there have been multiple occasions where an specific Job failures go out of control (by an introduced bug, or a broken dependency, external service or whatever) and you didn't have the ability to simply stop processing jobs for that job class or postpone their execution.
