@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     sidekiq_job_controller (0.1.0)
-      activejob (>= 6.0)
+      activejob (>= 6.0, < 7.2)
       sidekiq (>= 6.0)
 
 GEM
