@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     sidekiq_job_controller (0.1.1)
-      activejob (>= 6.0, < 7.2)
+      activejob (>= 6.0, <= 7.2)
       sidekiq (>= 6.0)
 
 GEM
@@ -101,6 +101,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-23
+  arm64-darwin-24
   x86_64-linux
 
 DEPENDENCIES
