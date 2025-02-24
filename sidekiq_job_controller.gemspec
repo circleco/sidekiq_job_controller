@@ -33,7 +33,7 @@ Gem::Specification.new do |spec|
 
   # Gem dependencies
   spec.add_runtime_dependency "sidekiq", ">= 6.0"
-  spec.add_runtime_dependency "activejob", ">= 6.0", "<= 7.2"
+  spec.add_runtime_dependency "activejob", ">= 6.0", "< 7.3"
 
   # Development dependencies
   spec.add_development_dependency "rspec"
